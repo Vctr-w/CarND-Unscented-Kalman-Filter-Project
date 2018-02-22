@@ -107,6 +107,8 @@ public:
 
   // previous timestamp
   long long previous_timestamp_;
+
+  void UpdateGeneric(MeasurementPackage meas_package, MeasurementPackage::SensorType sensor_type);
 };
 
 #endif /* UKF_H */
